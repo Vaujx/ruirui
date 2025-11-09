@@ -20,7 +20,7 @@ const nextConfig = {
   // Optional: For larger API payloads if downloads exceed defaults (rare for this app)
   api: {
     bodyParser: {
-      sizeLimit: '10mb', // Increase if needed for larger video streams
+      sizeLimit: '250mb', // Increase if needed for larger video streams
     },
   },
 };
